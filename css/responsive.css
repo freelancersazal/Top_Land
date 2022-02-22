@@ -17,7 +17,7 @@
 
     /* home page start */
     .wsus__about_img {
-        height: 620px;
+        height: 560px;
     }
 
     .wsus__single_property_img {
@@ -151,7 +151,7 @@
     }
 
     .wsus__about_img {
-        height: 650px;
+        height: 590px;
     }
     /* home page end */
 
@@ -724,6 +724,10 @@
     .details_review .wsus__select_review ul li span {
         font-size: 14px;
     }
+
+    .wsus__section_heading h2 {
+        text-align: center !important;
+    }
 }
 
 
@@ -1240,6 +1244,10 @@
     .details_nearest_location ul li span {
         width: 100%;
     }
+
+    .wsus__section_heading h2 {
+        text-align: center !important;
+    }
 }
 
 
@@ -1338,6 +1346,7 @@
 
     .wsus__section_heading h2 {
         font-size: 25px;
+        text-align: center !important;
     }
 
     .wsus__about_counter_single p {

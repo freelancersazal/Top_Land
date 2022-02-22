@@ -355,12 +355,13 @@ textarea:focus-visible {
 	font-size: 16px;
 }
 
-.wsus__banner .slick-dots,
+.wsus__banner .slick-dots, 
 .wsus__testimonial .slick-dots {
 	display: flex;
 	justify-content: center;
 	position: absolute;
 	bottom: 10px;
+	z-index: 1;
 }
 
 .wsus__banner .slick-dots li button, 
@@ -506,8 +507,13 @@ textarea:focus-visible {
 	background-size: contain !important;
 }
 
+.wsus__about_counter .wsus__section_heading h2 {
+	text-align: left;
+	margin-bottom: 0px;
+}
+
 .wsus__about_img {
-	height: 600px;
+	height: 540px;
 	overflow: hidden;
 	border-radius: 5px;
 	padding: 10px;
