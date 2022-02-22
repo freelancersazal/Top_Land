@@ -12,6 +12,17 @@
 	border-left: 1px solid #ffffff57;
 }
 
+.wsus__single_property_search_check .accordion-button::after {
+	right: auto;
+	left: 21px;
+}
+
+.wsus__single_property_search_check .form-check 
+.form-check-input {
+	float: right;
+	margin-left: 15px;
+}
+
 .wsus__topbar_left li a {
 	margin-right: 0;
 	margin-left: 30px;
